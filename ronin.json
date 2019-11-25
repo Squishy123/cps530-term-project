@@ -1,0 +1,45 @@
+{
+  "models": [],
+  "migrations": {
+    "order": [],
+    "up": [],
+    "down": []
+  },
+  "modules": [
+    {
+      "name": "routeLoader",
+      "path": "src/server/modules/routeLoader.js",
+      "createdAt": "2019-08-13T18:28:52.503Z"
+    },
+    {
+      "name": "connectMongo",
+      "path": "src/server/modules/connectMongo.js",
+      "createdAt": "2019-08-20T17:10:51.298Z"
+    },
+    {
+      "name": "initEmailTransporter",
+      "path": "src/server/modules/initEmailTransporter.js",
+      "createdAt": "2019-08-20T17:12:11.579Z"
+    }
+  ],
+  "middlewares": [
+    {
+      "name": "general/combineParsed",
+      "path": "src/app/middlewares/general/combineParsed.js",
+      "createdAt": "2019-08-16T19:52:49.992Z"
+    },
+    {
+      "name": "general/sendPayload",
+      "path": "src/app/middlewares/general/sendPayload.js",
+      "createdAt": "2019-08-16T19:53:19.853Z"
+    }
+  ],
+  "routes": [
+    {
+      "name": "helloworld",
+      "path": "src/app/routes/helloworld.js",
+      "createdAt": "2019-08-16T20:13:01.703Z"
+    }
+  ],
+  "customs": []
+}

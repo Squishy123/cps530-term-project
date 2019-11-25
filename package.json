@@ -1,0 +1,33 @@
+{
+  "name": "ronin-starter",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "repository": "https://github.com/Squishy123/ronin-starter.git",
+  "author": "squishy123 <christian.gnaw@gmail.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.0.2",
+    "cors": "^2.8.5",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "mongoose": "^5.7.5",
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.4.4",
+    "camelcase": "^5.3.1",
+    "chalk": "^2.4.2",
+    "cross-env": "^5.2.1",
+    "inquirer": "^6.5.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/server/server.js",
+    "format": "prettier --write \"./**/*.{js,jsx,json}\""
+  }
+}
