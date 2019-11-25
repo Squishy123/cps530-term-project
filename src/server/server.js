@@ -22,10 +22,15 @@ server.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 server.use(bodyParser.json());
 
+//add react view support
+server.set('view engine', 'jsx');
+server.set('views', path.join(__dirname, '../app/views'));
+server.engine('jsx', require('express-react-views').createEngine());
+
 (async function () {
     try {
         //connect to mongodb
-        await connectMongo();
+        //await connectMongo();
 
         //load all routes
         let routeLoader = new RouteLoader(server, {

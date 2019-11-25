@@ -4,7 +4,8 @@ const Helloworld = {
     path: "/",
     enabled: true,
     handler: [(req, res) => {
-        req.payload = { message: 'Hello World!', data: req.params};
+        res.render('index', {message: 'Hello World!', data: req.params});
+        return true;
     }]
 }
 

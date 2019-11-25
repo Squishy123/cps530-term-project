@@ -10,8 +10,8 @@ function packageMiddle(middle) {
             let fn = await middle(req, res);
             if (fn instanceof Error)
                 throw fn;
-
-            if (next) next();
+            //added true flag for rendering
+            if (next && !fn) next();
         } catch (err) {
             return res.send({ error: err.message });
         }
