@@ -27,6 +27,9 @@ server.set('view engine', 'jsx');
 server.set('views', path.join(__dirname, '../app/views'));
 server.engine('jsx', require('express-react-views').createEngine());
 
+//add static support
+server.use('/static', express.static(path.join(__dirname, '../app/static')));
+
 (async function () {
     try {
         //connect to mongodb

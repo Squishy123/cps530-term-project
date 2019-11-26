@@ -39,6 +39,11 @@
       "name": "home",
       "path": "src/app/routes/home.js",
       "createdAt": "2019-11-26T14:08:15.731Z"
+    },
+    {
+      "name": "handleForm",
+      "path": "src/app/routes/handleForm.js",
+      "createdAt": "2019-11-26T15:47:22.472Z"
     }
   ],
   "customs": []
