@@ -36,9 +36,9 @@
   ],
   "routes": [
     {
-      "name": "helloworld",
-      "path": "src/app/routes/helloworld.js",
-      "createdAt": "2019-08-16T20:13:01.703Z"
+      "name": "home",
+      "path": "src/app/routes/home.js",
+      "createdAt": "2019-11-26T14:08:15.731Z"
     }
   ],
   "customs": []
