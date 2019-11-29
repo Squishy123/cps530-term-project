@@ -12,6 +12,20 @@ export default props => {
           </p>
         </div>
       </section>
+      <section>
+        <div className="card-content">
+          <div className="content">
+            <p className="title is-4">React</p>
+              <p>
+                The "Create React App" is a user-friendly environment for building a new project with React
+              </p>
+              <p>You will need to have Node.js already installed and with a version after 8.10 and npm after 5.6</p>
+              <pre class = "gatsby-code-bash">
+                <strong>npx create-react-app my-app</strong>
+              </pre>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };
