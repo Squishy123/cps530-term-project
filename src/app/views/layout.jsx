@@ -29,7 +29,7 @@ export default class Layout extends React.Component {
                     <link rel="stylesheet" href="/static/styles.css" />
                 </head>
                 <body>
-                    <nav className="navbar container is-transparent">
+                    <nav className="navbar is-transparent">
                         <div className="navbar-brand">
                             <a className="navbar-item" href="/">
                                 <h1 className="logo">SYNO</h1>
@@ -41,7 +41,7 @@ export default class Layout extends React.Component {
                         <div className="navbar-menu is-active">
                             <div className="navbar-end">
                                 {["Overview", "Installation", "Tutorial", "Demo", "Conclusion", "Credits"].map(p => (
-                                    <a key={p} className="navbar-item" href={`/${p}`}>{p}</a>
+                                    <a key={p} className="navbar-item" href={`/${p.toLowerCase()}`}>{p}</a>
                                 ))}
                             </div>
                         </div>
