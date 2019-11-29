@@ -35,12 +35,16 @@ server.use('/static', express.static(path.join(__dirname, '../app/static')));
         //connect to mongodb
         //await connectMongo();
 
+        //setup nodemailer
+        //let transporter = initTransporter();
+
         //load all routes
         let routeLoader = new RouteLoader(server, {
             dir: path.join(__dirname, '../app/routes'),
             verbose: true,
             strict: true,
             binds: {
+                //transporter: transporter
             },
         });
         await routeLoader.loadDir();
