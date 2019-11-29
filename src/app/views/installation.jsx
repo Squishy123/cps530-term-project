@@ -1,19 +1,6 @@
 import React from "react";
-
-export default class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isActive: false // flag for mobile menu expand
-    };
-
-    this.toggleButton = this.toggleButton.bind(this);
-  }
-
-  toggleButton() {
-    console.log("Hello");
-    this.setState({ isActive: !this.state.isActive });
-  }
+import Layout from ".layout";
+export default props=> {
 
   render() {
     return (
