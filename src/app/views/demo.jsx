@@ -2,6 +2,26 @@ import React from "react";
 
 import Layout from "./layout";
 
+function renderSearch(props) {
+    if(props.results) {
+        return <>{(props.results.length > 0) ?
+            <section className="container mt-30">
+                <h1 className="title is-2">Results for {props.word}</h1>
+                <div className="columns is-multiline">
+                    {props.results.map(res => (
+                        <div key={`${res.word}${res.score}`} 
+                        className="column is-3">
+                            <p className="subtitle is-3">Word: <strong>{res.word}</strong></p>
+                            <p className="subtitle is-4">Score: {res.score}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
+            :
+            <h1 className="title is-2 mt-30">No Results Found!</h1>}</>
+    }
+}
+
 export default (props) => (
     <Layout title="Demo">
         <section className="hero is-medium is-primary">
@@ -20,20 +40,7 @@ export default (props) => (
                 </form>
             </div>
         </section>
-        {(props.results.length > 0) ?
-            <section className="container mt-30">
-                <h1 className="title is-2">Results for {props.word}</h1>
-                <div className="columns is-multiline">
-                    {props.results.map(res => (
-                        <div key={`${res.word}${res.score}`} 
-                        className="column is-3">
-                            <p className="subtitle is-3">Word: <strong>{res.word}</strong></p>
-                            <p className="subtitle is-4">Score: {res.score}</p>
-                        </div>
-                    ))}
-                </div>
-            </section>
-            :
-            <h1 className="title is-2 mt-30">No Results Found!</h1>}
+        {renderSearch(props)}
+        
     </Layout>
 )
