@@ -1,8 +1,7 @@
 import React from "react";
 import Layout from "./layout";
 
-
-export default props=> {
+export default props => {
   return (
     <Layout title="Installation">
       <section className="hero is-medium is-info">
@@ -15,4 +14,4 @@ export default props=> {
       </section>
     </Layout>
   );
-}
+};
