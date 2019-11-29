@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from './layout';
 
-import InfoCard from './infoCard';
-
 export default (props) => {
     return (
         <Layout title="Home">
