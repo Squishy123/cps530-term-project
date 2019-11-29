@@ -5,6 +5,8 @@ import Layout from './layout';
 export default (props) => {
     return (
         <Layout title="Home">
-            <h1>{props.message}</h1>
+            <div className="container">
+                <h1 className="title is-1">Hello World!</h1>    
+            </div>
         </Layout>)
 }
