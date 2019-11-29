@@ -4,7 +4,7 @@ const Installation = {
   path: "/installation",
   handler: [
     (req, res) => {
-      res.render("installation", { message: "Hello World!", data: req.params });
+      res.render("installation");
       return true;
     }
   ]

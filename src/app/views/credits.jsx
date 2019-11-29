@@ -6,7 +6,7 @@ import InfoCard from "./infoCard";
 
 export default props => {
     return (
-        <Layout title="Home">
+        <Layout title="Credits">
             <div className="hero">
                 <div className="hero-body">
                     <h1 className="title is-1 has-text-centered">The Team</h1>

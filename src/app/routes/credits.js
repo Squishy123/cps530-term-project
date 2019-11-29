@@ -4,7 +4,7 @@ const Credits = {
   path: "/credits",
   handler: [
     (req, res) => {
-      res.render("credits", { message: "Hello World!", data: req.params });
+      res.render("credits");
       return true;
     }
   ]
