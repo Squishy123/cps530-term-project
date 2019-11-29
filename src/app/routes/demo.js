@@ -1,11 +1,11 @@
-const Home = {
+const Demo = {
   method: "GET",
   enabled: true,
-  path: "/",
+  path: "/demo",
   handler: (req, res) => {
-    res.render("index");
+    res.render("demo");
     return true;
   }
 };
 
-export default Home;
+export default Demo;

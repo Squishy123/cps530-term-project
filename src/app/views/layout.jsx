@@ -4,7 +4,7 @@ export default class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isActive: false // flag for mobile menu expand
+      isActive: false //flag for mobile menu expand
     };
 
     this.toggleButton = this.toggleButton.bind(this);
@@ -23,12 +23,9 @@ export default class Layout extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <title>
-            {" "}
-            {`${
-              this.props.title ? this.props.title + " | " : ""
-            }CPS530-Term-Project`}{" "}
-          </title>
+          <title>{`${
+            this.props.title ? this.props.title + " | " : ""
+          }CPS530-Term-Project`}</title>
 
           <link
             rel="stylesheet"
@@ -44,21 +41,17 @@ export default class Layout extends React.Component {
           />
 
           <link rel="stylesheet" href="/static/styles.css" />
-        </head>{" "}
+        </head>
         <body>
-          {" "}
           <nav className="navbar is-transparent">
-            {" "}
             <div className="navbar-brand">
               <a className="navbar-item" href="/">
-                <h1 className="logo"> SYNO </h1>{" "}
-              </a>{" "}
-              <div className="dropdown is-active" />
-            </div>{" "}
+                <h1 className="logo">SYNO</h1>
+              </a>
+              <div className="dropdown is-active"></div>
+            </div>
             <div className="navbar-menu is-active">
-              {" "}
               <div className="navbar-end">
-                {" "}
                 {[
                   "Overview",
                   "Installation",
@@ -72,15 +65,14 @@ export default class Layout extends React.Component {
                     className="navbar-item"
                     href={`/${p.toLowerCase()}`}
                   >
-                    {" "}
-                    {p}{" "}
+                    {p}
                   </a>
-                ))}{" "}
-              </div>{" "}
+                ))}
+              </div>
             </div>
-          </nav>{" "}
-          <div className="main"> {this.props.children} </div>
-        </body>{" "}
+          </nav>
+          <div className="main">{this.props.children}</div>
+        </body>
       </html>
     );
   }
