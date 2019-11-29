@@ -1,33 +1,31 @@
 import React from "react";
+import Layout from "./layout";
 
-export default class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isActive: false // flag for mobile menu expand
-    };
-
-    this.toggleButton = this.toggleButton.bind(this);
-  }
-
-  toggleButton() {
-    console.log("Hello");
-    this.setState({ isActive: !this.state.isActive });
-  }
-
-  render() {
-    return (
-      <Layout title="Installation">
-        <section className="hero is-medium is-info">
-          <div className="hero-body">
-            <h1 className="title is-1">Getting Started</h1>
-            <p className="subtitle is-2">
-              Lets see how to install and implement React, Ronin, and Node.Js
-              <strong>frameworks</strong> used in this project
-            </p>
+export default props => {
+  return (
+    <Layout title="Installation">
+      <section className="hero is-medium is-info">
+        <div className="hero-body">
+          <h1 className="title is-1">Getting Started</h1>
+          <p className="subtitle is-2">
+            Let's see how to install and implement React, Ronin, and Node.js
+          </p>
+        </div>
+      </section>
+      <section>
+        <div className="card-content">
+          <div className="content">
+            <p className="title is-4">React</p>
+              <p>
+                The "Create React App" is a user-friendly environment for building a new project with React
+              </p>
+              <p>You will need to have Node.js already installed and with a version after 8.10 and npm after 5.6</p>
+              <pre className="gatsby-code-bash">
+                <strong>npx create-react-app my-app</strong>
+              </pre>
           </div>
-        </section>
-      </Layout>
-    );
-  }
-}
+        </div>
+      </section>
+    </Layout>
+  );
+};

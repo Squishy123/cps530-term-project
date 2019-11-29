@@ -14,12 +14,12 @@ export default props => {
                         <div className="column is-one-quarter"></div>
                         <div className="column is-one-quarter">
                             <a href={props.bio[2]} target="_blank">
-                                <img width={32} src="/static/logos/github-logo.png" />
+                                <i className="icon fab fa-github fa-3x" />
                             </a>
                         </div>
                         <div className="column is-one-quarter">
                             <a href={props.bio[4]} target="_blank">
-                                <img width={32} src="/static/logos/linkedin-logo.png" />
+                                <i className="icon fab fa-linkedin fa-3x" />
                             </a>
                         </div>
                         <div className="column is-one-quarter"></div>

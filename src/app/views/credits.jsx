@@ -14,8 +14,8 @@ export default props => {
             </div>
             <div className="container">
                 <section className="section">
-                    <div className="tile is-ancestor has-text-centered">
-                        <div className="tile is-parent">
+                    <div className="tile is-ancestor has-text-centered columns is-multiline">
+                        <div className="tile is-parent column">
                             <article className="tile is-child">
                                 <InfoCard
                                     bio={[
@@ -28,7 +28,7 @@ export default props => {
                                 />
                             </article>
                         </div>
-                        <div className="tile is-parent">
+                        <div className="tile is-parent column">
                             <article className="tile is-child">
                                 <InfoCard
                                     bio={[
@@ -41,7 +41,7 @@ export default props => {
                                 />
                             </article>
                         </div>
-                        <div className="tile is-parent">
+                        <div className="tile is-parent column">
                             <article className="tile is-child">
                                 <InfoCard
                                     bio={[
