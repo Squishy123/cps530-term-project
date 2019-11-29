@@ -3,7 +3,7 @@ const Overview = {
   enabled: true,
   path: "/overview",
   handler: (req, res) => {
-    res.render("overview", { message: "Hello World!", data: req.params });
+    res.render("overview");
     return true;
   }
 };
