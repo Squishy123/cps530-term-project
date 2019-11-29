@@ -11,27 +11,3 @@ body {
     font-size: 30px;
     font-weight: 700;
 }
-
-.jeremyTest {
-    width: 30vw;
-    height: 75vh;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 10px;
-    opacity: 1;
-}
-
-.jeremyContainer {
-    display: flex;
-}
-
-.jeremyFlexHorizontal {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
