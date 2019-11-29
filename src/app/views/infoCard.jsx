@@ -1,10 +1,6 @@
 import React from "react";
 
 export default props => {
-  // let background = {
-  //     backgroundImage: `url(${props.bio[3]})`
-  // }
-
   return (
     <div>
       <h1>{props.bio[1]}</h1>
