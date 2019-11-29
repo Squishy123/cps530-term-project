@@ -16,7 +16,7 @@ export default (props) => {
           <div className="container has-text-centered">
             <h1 className="title is-2 has-text-centered">Ronin</h1>
             <div className="columns">
-              <img className="column is-6" src="/static/ronin-logo.png" />
+              <img className="column is-6" src="/static/logos/ronin-logo.png" />
               <div className="column is-6 has-text-left">
                 <h1 className="title is-4">Ronin is a back-end framework powered
                 by Node.JS</h1>
@@ -89,7 +89,7 @@ export default (props) => {
             <h1 className="title is-2 has-text-centered">React</h1>
             <div className="columns">
               <div className="column is-6">
-                <img width={200} src="/static/react-logo.png" />
+                <img width={200} src="/static/logos/react-logo.png" />
               </div>
               <div className="column is-6 has-text-left">
                 <h1 className="title is-4">
