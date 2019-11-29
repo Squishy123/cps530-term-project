@@ -19,5 +19,6 @@ export default (props) => {
                 <input type="submit" value="submit" />
             </form>
             <p>{JSON.stringify(props.data)}</p>
-        </Layout>)
+        </Layout>
+    )
 }
