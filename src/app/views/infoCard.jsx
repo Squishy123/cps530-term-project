@@ -1,13 +1,31 @@
 import React from "react";
 
 export default props => {
-  return (
-    <div>
-      <h1>{props.bio[1]}</h1>
-      <p>{props.bio[0]}</p>
-      <figure class="image is-128x128">
-        <img class="image is-square is-rounded" src={props.bio[3]} />
-      </figure>
-    </div>
-  );
+    return (
+        <div>
+            <figure className="image is-square">
+                <img className="image is-rounded" src={props.bio[3]} />
+            </figure>
+            <section className="section">
+                <div className="box">
+                    <h1 className="title is-3">{props.bio[1]}</h1>
+                    <p className="subtitle is-4">{props.bio[0]}</p>
+                    <div className="columns">
+                        <div className="column is-one-quarter"></div>
+                        <div className="column is-one-quarter">
+                            <a href={props.bio[2]} target="_blank">
+                                <img width={32} src="/static/logos/github-logo.png" />
+                            </a>
+                        </div>
+                        <div className="column is-one-quarter">
+                            <a href={props.bio[4]} target="_blank">
+                                <img width={32} src="/static/logos/linkedin-logo.png" />
+                            </a>
+                        </div>
+                        <div className="column is-one-quarter"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
 };
