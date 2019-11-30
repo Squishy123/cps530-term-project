@@ -12,8 +12,8 @@ export default props => {
           </p>
         </div>
       </section>
-      <div className="columns">
-      <section>
+      <section className="columns mt-30">
+        <div className="column is-4">
         <div className="card-content">
           <div className="content">
             <p className="title is-4" >Node.js</p>
@@ -29,8 +29,8 @@ export default props => {
               </ol>
             </div>
           </div>
-        </section>
-        <section>
+        </div>
+        <div className="column is-4">
         <div className="card-content">
           <div className="content">
             <p className="title is-4">Ronin</p>
@@ -59,8 +59,8 @@ export default props => {
               </ol>
             </div>
           </div>
-        </section>
-      <section>
+        </div>
+      <div className = "column is-4">
         <div className="card-content">
           <div className="content">
             <p className="title is-4">React</p>
@@ -89,8 +89,8 @@ export default props => {
               <img src = "https://cdn.rawgit.com/facebook/create-react-app/27b42ac/screencast.svg" alt="npm create" width="600"></img>
           </div>
         </div>
-      </section>
       </div>
+      </section>
       
     </Layout>
   );
