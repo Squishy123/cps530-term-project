@@ -24,7 +24,7 @@ function renderSearch(props) {
 
 export default (props) => (
     <Layout title="Demo">
-        <section className="hero is-medium is-primary">
+        <section className="hero is-medium is-primary is-bold">
             <div className="hero-body">
                 <h1 className="title is-1">SYNO</h1>
                 <p className="subtitle is-1">The Synonym Generator</p>
@@ -40,7 +40,7 @@ export default (props) => (
                 </form>
             </div>
         </section>
-        <section className="hero is-danger">
+        <section className="hero is-danger is-bold">
         <div className="hero-body">
           <div className="container has-text-centered">
             <h1 className="title is-2 has-text-centered">How it works</h1>

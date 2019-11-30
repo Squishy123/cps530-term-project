@@ -5,7 +5,7 @@ import Layout from "./layout";
 export default props => {
   return (
     <Layout title="Overview">
-      <section className="hero is-medium is-info">
+      <section className="hero is-medium is-info is-bold">
         <div className="hero-body">
           <h1 className="title is-1">Overview of Frameworks</h1>
           <p className="subtitle is-2">
@@ -14,7 +14,7 @@ export default props => {
           </p>
         </div>
       </section>
-      <section className="hero is-danger">
+      <section className="hero is-danger is-bold">
         <div className="hero-body">
           <div className="container has-text-centered">
             <h1 className="title is-2 has-text-centered">Ronin</h1>
@@ -86,7 +86,7 @@ export default props => {
           </div>
         </div>
       </section>
-      <section className="hero is-dark">
+      <section className="hero is-dark is-bold">
         <div className="hero-body">
           <div className="container has-text-centered">
             <h1 className="title is-2 has-text-centered">React</h1>
