@@ -40,6 +40,18 @@ export default (props) => (
                 </form>
             </div>
         </section>
+        <section className="hero is-danger">
+        <div className="hero-body">
+          <div className="container has-text-centered">
+            <h1 className="title is-2 has-text-centered">How it works</h1>
+
+                <p className="subtitle is-5 has-text-centered">
+                  It works by using THIS THING, to do THAT THING.
+                </p>
+
+          </div>
+        </div>
+        </section>
         {renderSearch(props)}
         
     </Layout>
