@@ -8,7 +8,7 @@ export default props => {
         <div className="hero-body">
           <h1 className="title is-1">Getting Started</h1>
           <p className="subtitle is-2">
-            Let's see how to install and implement React, Ronin, and Node.js
+            Let's see how to install and implement Node.js, Ronin, and React
           </p>
         </div>
       </section>
@@ -33,10 +33,30 @@ export default props => {
         <section>
         <div className="card-content">
           <div className="content">
-            <p className="title is-4"style={{textAlign:"Right"}}>Ronin</p>
+            <p className="title is-4">Ronin</p>
               <p>
-               
+              Ronin is a back-end framework powered by Node.js It provides a variety of generative tools to help developers build server applications with ease.
               </p>
+              <ol>
+                <li>First, install dependencies. NPM or (Node.js Package Manager) will take care of that for us. Open a terminal and navigate to the directory of your project, then:
+                <pre class = "gatsby-code-bash">
+                <strong>npm install</strong>
+                </pre>
+                </li>
+                <li>Now copy and configure environment variables by entering:
+                <pre class = "gatsby-code-bash">
+                <strong>cp .env.example .env.dev && cp .env.example .env.prod</strong>
+                </pre>
+                </li>
+                <li>Install the Ronin-CLI by entering:</li>
+                <pre class = "gatsby-code-bash">
+                <strong>npm install -g ronin-cli</strong>
+                </pre>
+                <li>We are finally ready to open our development environment:</li>
+                <pre class = "gatsby-code-bash">
+                <strong>npm run dev</strong>
+                </pre>
+              </ol>
             </div>
           </div>
         </section>
