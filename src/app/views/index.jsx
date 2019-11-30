@@ -5,7 +5,7 @@ import Layout from "./layout";
 export default props => {
   return (
     <Layout title="Home">
-      <div className="hero is-info">
+      <div className="hero is-info is-bold">
         <div className="hero-body"></div>
       </div>
       <div className="container">

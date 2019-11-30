@@ -23,7 +23,8 @@ export default props => {
                                         "Adam Aboud",
                                         "https://github.com/OneHandKlap",
                                         "/static/bio/adam.jpg",
-                                        "https://www.linkedin.com/in/adam-aboud/"
+                                        "https://www.linkedin.com/in/adam-aboud/",
+                                        "Front-end developer",
                                     ]}
                                 />
                             </article>
@@ -36,7 +37,8 @@ export default props => {
                                         "Christian Wang",
                                         "https://github.com/Squishy123",
                                         "/static/bio/christian.jpg",
-                                        "https://www.linkedin.com/in/christian-gnaw/"
+                                        "https://www.linkedin.com/in/christian-gnaw/",
+                                        "Full-stack developer",
                                     ]}
                                 />
                             </article>
@@ -49,7 +51,8 @@ export default props => {
                                         "Jeremy Ng",
                                         "https://github.com/KingJeremyNg",
                                         "/static/bio/jeremy.jpg",
-                                        "https://www.linkedin.com/in/kingjeremyng/"
+                                        "https://www.linkedin.com/in/kingjeremyng/",
+                                        "Front-end developer",
                                     ]}
                                 />
                             </article>
