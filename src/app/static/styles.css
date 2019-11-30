@@ -16,3 +16,17 @@ body {
     margin-top: 30px;
 }
 
+.size-300x300 {
+    width: 300px;
+    height: 300px;
+}
+
+.has-image-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
