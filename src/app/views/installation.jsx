@@ -39,21 +39,21 @@ export default props => {
               </p>
               <ol>
                 <li>First, install dependencies. NPM or (Node.js Package Manager) will take care of that for us. Open a terminal and navigate to the directory of your project, then:
-                <pre class = "gatsby-code-bash">
+                <pre className = "gatsby-code-bash">
                 <strong>npm install</strong>
                 </pre>
                 </li>
                 <li>Now copy and configure environment variables by entering:
-                <pre class = "gatsby-code-bash">
+                <pre className = "gatsby-code-bash">
                 <strong>cp .env.example .env.dev && cp .env.example .env.prod</strong>
                 </pre>
                 </li>
                 <li>Install the Ronin-CLI by entering:</li>
-                <pre class = "gatsby-code-bash">
+                <pre className = "gatsby-code-bash">
                 <strong>npm install -g ronin-cli</strong>
                 </pre>
                 <li>We are finally ready to open our development environment:</li>
-                <pre class = "gatsby-code-bash">
+                <pre className = "gatsby-code-bash">
                 <strong>npm run dev</strong>
                 </pre>
               </ol>
@@ -71,16 +71,16 @@ export default props => {
                 <li>Open a terminal and navigate to a directory you want to orient your project in</li>
                 <li>Enter the following into the command line</li>
                 </ol>
-              <pre class = "gatsby-code-bash">
+              <pre className = "gatsby-code-bash">
                 <strong>npx create-react-app my-app</strong>
               </pre>
               <ol>
                 <li value="3">Once it has finished building your environment, enter the following:</li>
               </ol>
-              <pre class = "gatsby-code-bash">
+              <pre className = "gatsby-code-bash">
                 <strong>cd my-app</strong>
               </pre>
-              <pre class = "gatsby-code-bash">
+              <pre className = "gatsby-code-bash">
                 <strong>npm start</strong>
               </pre>
               <ol>
