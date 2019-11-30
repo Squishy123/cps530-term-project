@@ -12,6 +12,7 @@ export default props => {
           </p>
         </div>
       </section>
+      <div className="columns">
       <section>
         <div className="card-content">
           <div className="content">
@@ -20,7 +21,9 @@ export default props => {
               </p>
               <ol>
                 <li>Go to: <a href="https://nodejs.org/en/">https://nodejs.org/en/</a> and select the version you want to download</li>
-                <img src="/static/install/node_options.png"></img>
+                <div>
+                  <img src="/static/install/node_options.png" width="600" height="480"></img>
+                </div>
                 <li>Open the .msi file to start installation and follow all the prompts.</li>
                 <img src ="https://www.guru99.com/images/NodeJS/010716_0458_DownloadIns2.png"></img>
               </ol>
@@ -67,6 +70,7 @@ export default props => {
           </div>
         </div>
       </section>
+      </div>
       
     </Layout>
   );
