@@ -8,7 +8,8 @@ export default props => {
             </figure>
             <section className="section">
                 <div className="box">
-                    <h1 className="title is-3">{props.bio[1]}</h1>
+                    <h1 className="title is-2">{props.bio[1]}</h1>
+                    <p className="subtitle is-3">{props.bio[5]}</p>
                     <p className="subtitle is-4">{props.bio[0]}</p>
                     <div className="columns is-mobile">
                         <div className="column is-one-quarter"></div>
