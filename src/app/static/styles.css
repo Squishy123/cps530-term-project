@@ -11,6 +11,10 @@ body {
     font-size: 30px;
     font-weight: 700;
 }
+#logo{
+    width: "680";
+    height:"400";
+}
 
 .mt-30 {
     margin-top: 30px;
