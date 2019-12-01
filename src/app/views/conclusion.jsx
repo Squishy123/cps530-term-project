@@ -30,32 +30,32 @@ export default props => {
               </div>
             </div>
             <div className="hero-body column is-two-thirds">
-              <h1 className="title is-3">Did Ronin perform to our expectations? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did Ronin perform to our expectations? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Yes, Ronin did what we wanted it to do.
               </p>
               <br></br>
-              <h1 className="title is-3">Was Ronin difficult to install or configure? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was Ronin difficult to install or configure? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, Ronin was easy to install and get started using NPM.
               </p>
               <br></br>
-              <h1 className="title is-3">Was it easy to create pages with Ronin? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was it easy to create pages with Ronin? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Ronin made it easy to create pages by generating basic react templates and routes which saved a lot of time.
               </p>
               <br></br>
-              <h1 className="title is-3">Was the learning curve steep? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was the learning curve steep? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 It is very simple to get started with Ronin.
               </p>
               <br></br>
-              <h1 className="title is-3">Would we do things differently? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Would we do things differently? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, Ronin is a necessary tool for this project.
               </p>
               <br></br>
-              <h1 className="title is-3">Did we regret the choice of framework? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did we regret the choice of framework? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, Ronin is one of a kind.
               </p>
@@ -81,32 +81,32 @@ export default props => {
               </div>
             </div>
             <div className="hero-body column is-two-thirds">
-              <h1 className="title is-3">Did React perform to our expectations? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did React perform to our expectations? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 React met with our expectations.
               </p>
               <br></br>
-              <h1 className="title is-3">Was React difficult to install or configure? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was React difficult to install or configure? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 React was easy to install and configure.
               </p>
               <br></br>
-              <h1 className="title is-3">Was it easy to create pages with React? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was it easy to create pages with React? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 React allowed us to create templates for reuse in various pages.
               </p>
               <br></br>
-              <h1 className="title is-3">Was the learning curve steep? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was the learning curve steep? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Leaning curve may be steep due to syntax and structure.
               </p>
               <br></br>
-              <h1 className="title is-3">Would we do things differently? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Would we do things differently? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, React is popular for a reason.
               </p>
               <br></br>
-              <h1 className="title is-3">Did we regret the choice of framework? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did we regret the choice of framework? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No.
               </p>
@@ -132,32 +132,32 @@ export default props => {
               </div>
             </div>
             <div className="hero-body column is-two-thirds">
-              <h1 className="title is-3">Did Bulma perform to our expectations? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did Bulma perform to our expectations? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Yes, Bulma kept our page styles consistent.
               </p>
               <br></br>
-              <h1 className="title is-3">Was Bulma difficult to install or configure? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was Bulma difficult to install or configure? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, Bulma was easy to get started with.
               </p>
               <br></br>
-              <h1 className="title is-3">Was it easy to create pages with Bulma? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was it easy to create pages with Bulma? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Bulma allows a great deal of configuration using their elements and element variables.
               </p>
               <br></br>
-              <h1 className="title is-3">Was the learning curve steep? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Was the learning curve steep? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 Bulma was fast to pick up and understand.
               </p>
               <br></br>
-              <h1 className="title is-3">Would we do things differently? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Would we do things differently? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No, there are a lot of CSS frameworks available but Bulma was simple for this project.
               </p>
               <br></br>
-              <h1 className="title is-3">Did we regret the choice of framework? <i class="fas fa-angle-double-right fa-1x"></i></h1>
+              <h1 className="title is-3">Did we regret the choice of framework? <i className="fas fa-angle-double-right fa-1x"></i></h1>
               <p className="box has-text-black subtitle is-3">
                 No.
               </p>
