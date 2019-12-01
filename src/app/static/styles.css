@@ -29,6 +29,10 @@ body {
     width: 100px;
     height: 100px;
 }
+.size-480x240{
+    width: 480px;
+    height:240px;
+}
 
 .has-image-centered {
     margin-left: auto;
