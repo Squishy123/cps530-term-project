@@ -51,8 +51,14 @@ body {
 .tut-image {
     max-width: 500px;
     margin: 10px;
+    width: 100%;
 }
 
 code {
     margin-top: 10px;
+}
+
+pre, code {
+    white-space: pre;
+    overflow-x: scroll;
 }

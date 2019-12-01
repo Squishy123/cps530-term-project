@@ -15,6 +15,15 @@ export default props => (
         </section>
         <div style={{ height: '100px' }} />
         <section className="container">
+            <h1 className="title is-2">What are we building?</h1>
+            <p className="subtitle is-3">
+                A synonym generator powered by Ronin and React
+            </p>
+            <p className="subtitle is-4">Check out the live demo <a href="/demo">here</a></p>
+            <p className="subtitle is-4">Public repository available <a href="https://github.com/Squishy123/synonym-generator">here</a></p>
+        </section>
+        <div style={{ height: '100px' }} />
+        <section className="container">
             <h1 className="title is-2">Prerequisites</h1>
             <p className="subtitle is-3">
                 To follow this tutorial, you will need the following:
@@ -102,7 +111,7 @@ export default props => (
                     <pre>
                         <code className="html media-content is-size-6">
                             {
-`import React from 'react';
+                                `import React from 'react';
 
 export default ((props) => (
     <html>
@@ -123,7 +132,7 @@ export default ((props) => (
         </body>
     </html>
 ));`
-}
+                            }
                         </code>
                     </pre>
                 </article>
@@ -166,7 +175,7 @@ export default (props) => (
             <div className="hero-body">
                 <h1 className="title is-1">SYNO</h1>
                 <p className="subtitle is-1">The Synonym Generator</p>
-                <form className="container" action="/demo/search">
+                <form className="container" action="/search">
                     <div className="field is-grouped">
                         <div className="control">
                             <input className="input" name="search" type="text" placeholder="Search" />
@@ -185,6 +194,93 @@ export default (props) => (
                             }
                         </code>
                     </pre>
+                </article>
+            </section>
+            <section className="mt-30">
+                <p className="is-size-4">
+                    Now create a new ronin-component to handle searching:
+                </p>
+                <article className="media">
+                    <code className="media-content is-size-4">
+                        ronin make:route Search GET /search
+                    </code>
+                </article>
+            </section>
+            <section className="mt-30">
+                <p className="is-size-4">
+                    Replace the content of the search.js found at /src/app/routes/search.js with the following:
+                </p>
+                <article className="media">
+                    <pre>
+                        <code className="html media-content is-size-6">
+                            {
+                                `
+const fetch = require('node-fetch');
+
+const Search = {
+    method: "GET",
+    enabled: true,
+    path: "/search",
+    handler: [
+      async (req, res) => {
+        let results = await fetch(
+          "https://api.datamuse.com/words?rel_syn="+req.params.search"
+        ).then(r => r.json());
+        res.render("index", { word: req.params.search, results: results });
+        return true;
+      }
+    ]
+}
+
+export default Search;
+`
+                            }
+                        </code>
+                    </pre>
+                </article>
+            </section>
+        </section>
+        <section className="container mt-50">
+            <h1 className="title is-3">Step 3: Running the Application</h1>
+            <section>
+                <p className="is-size-4">
+                    Copy environment variables for development and production
+                </p>
+                <article className="media">
+                    <code className="media-content is-size-4">
+                        cp .env.example .env.dev && cp .env.example .env.prod
+                    </code>
+                </article>
+                <p className="is-size-4 mt-30">
+                    Change port field accordingly:
+                </p>
+                <article className="media">
+                    <pre>
+                        <code className="text media-content is-size-4">
+                            {`DB_URL=mongodb://localhost:27017
+PORT=3000
+EMAIL_HOST=
+EMAIL_USER=
+EMAIL_PASS=
+`}
+                        </code>
+                    </pre>
+                </article>
+                <p className="is-size-4 mt-30">
+                    To run in development: run the following:
+                </p>
+                <article className="media">
+                    <code className="media-content is-size-4">
+                        npm run dev
+                    </code>
+                </article>
+                <p className="is-size-4 mt-30">
+                    To run in production: run the following:
+                </p>
+                <article className="media">
+                    <code className="media-content is-size-4">
+                        npm run start
+                    </code>
                 </article>
             </section>
         </section>
