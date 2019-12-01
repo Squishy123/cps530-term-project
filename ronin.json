@@ -54,6 +54,11 @@
       "name": "demoSearch",
       "path": "src/app/routes/demoSearch.js",
       "createdAt": "2019-11-29T20:28:50.892Z"
+    },
+    {
+      "name": "tutorial",
+      "path": "src/app/routes/tutorial.js",
+      "createdAt": "2019-12-01T18:40:39.927Z"
     }
   ],
   "customs": []
