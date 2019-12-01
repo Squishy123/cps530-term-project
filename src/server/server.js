@@ -47,8 +47,8 @@ server.use("/static", express.static(path.join(__dirname, "../app/static")));
     });
     await routeLoader.loadDir();
 
-    server.listen(3000, function() {
-      console.log(`${server.name} listening at http://localhost:3000`);
+    server.listen(process.env.PORT, function() {
+      console.log(`${server.name} listening at http://localhost:${process.env.PORT}`);
     });
   } catch (err) {
     console.error(err);
