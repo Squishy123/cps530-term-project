@@ -11,6 +11,10 @@ body {
     font-size: 30px;
     font-weight: 700;
 }
+#logo{
+    width: "680";
+    height:"400";
+}
 
 .mt-30 {
     margin-top: 30px;
@@ -24,6 +28,10 @@ body {
 .size-100x100 {
     width: 100px;
     height: 100px;
+}
+.size-480x240{
+    width: 480px;
+    height:240px;
 }
 
 .has-image-centered {
