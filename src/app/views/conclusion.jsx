@@ -107,60 +107,6 @@ export default props => {
               </p>
               <br></br>
               <h1 className="title is-3">Did we regret the choice of framework? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-<<<<<<< HEAD
-=======
-              <p className="box has-text-black subtitle is-3">
-                No.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="hero is-medium is-light is-bold">
-          <div className="columns">
-            <div className="hero-body column is-one-quarter">
-              <div className="columns is-centered is-mobile">
-                <img className="size-100x100" src="/static/logos/bulma-logo.png" />
-                <h1 className="title is-1">Bulma</h1>
-              </div>
-              <div className="columns is-centered is-mobile">
-                <i className="fas fa-star fa-3x"></i>
-                <i className="fas fa-star fa-3x"></i>
-                <i className="fas fa-star fa-3x"></i>
-                <i className="fas fa-star fa-3x"></i>
-                <i className="fas fa-star fa-3x"></i>
-              </div>
-            </div>
-            <div className="hero-body column is-two-thirds">
-              <h1 className="title is-3">Did Bulma perform to our expectations? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-              <p className="box has-text-black subtitle is-3">
-                Yes, Bulma kept our page styles consistent.
-              </p>
-              <br></br>
-              <h1 className="title is-3">Was Bulma difficult to install or configure? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-              <p className="box has-text-black subtitle is-3">
-                No, Bulma was easy to get started with.
-              </p>
-              <br></br>
-              <h1 className="title is-3">Was it easy to create pages with Bulma? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-              <p className="box has-text-black subtitle is-3">
-                Bulma allows a great deal of configuration using their elements and element variables.
-              </p>
-              <br></br>
-              <h1 className="title is-3">Was the learning curve steep? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-              <p className="box has-text-black subtitle is-3">
-                Bulma was fast to pick up and understand.
-              </p>
-              <br></br>
-              <h1 className="title is-3">Would we do things differently? <i className="fas fa-angle-double-right fa-1x"></i></h1>
-              <p className="box has-text-black subtitle is-3">
-                No, there are a lot of CSS frameworks available but Bulma was simple for this project.
-              </p>
-              <br></br>
-              <h1 className="title is-3">Did we regret the choice of framework? <i className="fas fa-angle-double-right fa-1x"></i></h1>
->>>>>>> origin/master
               <p className="box has-text-black subtitle is-3">
                 No.
               </p>
